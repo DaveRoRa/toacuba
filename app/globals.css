@@ -24,3 +24,9 @@ h1, h2, h3, h5, h6 {
 p, h4 {
   font-family: Lato, sans-serif;
 }
+
+@layer components {
+  .subSection {
+    @apply w-[340px] sm:w-[540px] md:w-[720px] lg:w-[940px] xl:w-[1140px] mx-auto;
+  }
+}

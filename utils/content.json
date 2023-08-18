@@ -1,0 +1,97 @@
+{
+  "1": {
+    "title": " Best Camping in the National Park",
+    "subtitle": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+  },
+  "2": {
+    "title": "10 Amazing Camping Tours",
+    "subtitle": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "gallery": [
+      { "src": "/gallery1.jpg", "alt": "pic1" },
+      { "src": "/gallery2.jpg", "alt": "pic2" },
+      { "src": "/gallery3.jpg", "alt": "pic3" },
+      { "src": "/gallery4.webp", "alt": "pic4" },
+      { "src": "/gallery5.jpg", "alt": "pic5" },
+      { "src": "/gallery6.jpeg", "alt": "pic6" }
+    ],
+    "singleImage": { "src": "/gallery7.jpg", "alt": "pic7" }
+  },
+  "3": [
+    {
+      "header": "Available to campsite guests:",
+      "elements": [
+        "store (with eco products)",
+        "children's playground with a climbing wall",
+        "climbing tower * (8 m high; suitable for beginners as well as professional climbers)",
+        "volleyball court",
+        "bike hire (also for children)",
+        "mountain bike hire* (also for children",
+        "pétanque court",
+        "table for table tennis",
+        "table tennis balls and bats for hire",
+        "use of washing- and drying machine",
+        "internet access"
+      ]
+    },
+    {
+      "header": "In the campsite, you can:",
+      "elements": [
+        "hire a climbing instructor",
+        "buy kayaking permits(price list)",
+        "buy fishing permits (price list)"
+      ]
+    },
+    {
+      "header": "Info centre for paragliders:",
+      "elements": [
+        "all information about weather conditions for flights",
+        "para-taxi takes you to the runway",
+        "tandem paragliding available"
+      ]
+    }
+  ],
+  "4": {
+    "title": "Our services",
+    "mainImg": { "src": "/section4bg.jpg", "alt": "section4-bg" },
+    "cards": [
+      {
+        "img": { "src": "/section4-1.jpg", "alt": "section4-pic1" },
+        "header": "Sport Activities",
+        "subtext": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+        "link": "#"
+      },
+      {
+        "img": { "src": "/section4-2.jpg", "alt": "section4-pic2" },
+        "header": "Internet Access",
+        "subtext": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+        "link": "#"
+      },
+      {
+        "img": { "src": "/section4-3.jpg", "alt": "section4-pic3" },
+        "header": "Climbing instructor",
+        "subtext": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+        "link": "#"
+      },
+      {
+        "img": { "src": "/section4-4.jpg", "alt": "section4-pic4" },
+        "header": "Mountain bikes",
+        "subtext": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+        "link": "#"
+      }
+    ]
+  },
+  "5": {
+    "title1": "Our Camping",
+    "text1": "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+    "link": "#",
+    "title2": "National Park Service Camping Guide",
+    "text2": "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.",
+    "text3": "Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read."
+  },
+  "6": {
+    "bgImage": { "src": "/section6bg.jpg", "alt": "backgroundsection6" },
+    "title":"Family Camp",
+    "text": "The trekking in the enchanting mountains or rafting in the wild rivers, exploring the dense forest, canyoning in the refreshing waterfall, gliding across the highest peaks and the beautiful valley etc. are some of the adventures you can imagine.",
+    "cardPic":{ "src": "/section6-1.jpg", "alt": "sectionsixcard" }
+  }
+}
