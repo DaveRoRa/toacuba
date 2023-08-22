@@ -25,7 +25,7 @@ const config: Config = {
         "primary-200": "#dcd3bf",
         "primary-400": "#c1b495",
         "primary-500": "#a79770",
-        "primary-600": "#9b8a60"
+        "primary-600": "#9b8a60",
       },
     },
   },

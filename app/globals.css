@@ -29,4 +29,7 @@ p, h4 {
   .subSection {
     @apply w-[340px] sm:w-[540px] md:w-[720px] lg:w-[940px] xl:w-[1140px] mx-auto;
   }
+  .borderAsMargin {
+    @apply border-y-[15px] border-solid md:border-x-[15px] border-white;
+  }
 }

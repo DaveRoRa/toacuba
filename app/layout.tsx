@@ -1,6 +1,10 @@
+import {
+  SideBarContextProvider,
+} from "@/provider/side-bar-provider";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Lato, Playfair_Display } from "next/font/google";
+import BodyLayout from "./components/body-layout";
 const lato = Lato({ weight: ["700", "400"], subsets: ["latin", "latin-ext"] });
 const palyfair = Playfair_Display({
   weight: ["700", "600", "400"],
@@ -18,10 +22,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${lato.className}`}>
-        {children}
-      </body>
-    </html>
+    <SideBarContextProvider>
+      <html lang="en">
+        <BodyLayout>{children}</BodyLayout>
+      </html>
+    </SideBarContextProvider>
   );
 }

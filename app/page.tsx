@@ -1,27 +1,30 @@
 import Image from "next/image";
-import { AiOutlineMenu, AiFillApi } from "react-icons/ai";
+import { AiFillApi } from "react-icons/ai";
+import { IoMdPlay } from "react-icons/io";
+import { FaCheck } from "react-icons/fa";
+import {
+  PiEnvelope,
+  PiFacebookLogo,
+  PiInstagramLogo,
+  PiTelegramLogo,
+  PiWhatsappLogo,
+} from "react-icons/pi";
 import Button from "./components/button";
 import IconCard from "./components/icon-card";
 import SquareImage from "./components/square-image";
 import List from "./components/list";
 import content from "../utils/content.json";
 import Card from "./components/card";
+import { ContactForm } from "./components/contact-form";
+import Logo from "./components/logo";
+import SocialLink from "./components/social-link";
+import FooterList from "./components/FooterList";
+import Menu from "./components/menu";
+
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <header className="h-20 w-full flex justify-center items-center">
-        <div
-          className={
-            "w-[340px] sm:w-[540px] md:w-[720px] lg:w-[940px]" +
-            " xl:w-[1140px] flex content-around justify-between"
-          }
-        >
-          <div className="relative h-8 w-16">
-            <Image alt="logo" src="/default-logo.png" fill />
-          </div>
-          <AiOutlineMenu className="w-6 h-6 my-1" />
-        </div>
-      </header>
+      <Menu />
       <section id="Intro" className="h-[1120px] md:h-[845px] w-full relative">
         <div className="h-full w-full relative">
           <Image
@@ -227,6 +230,167 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="SectionSeven">
+        <div className="subSection">
+          <div className="mt-10 mb-[55px] grid grid-cols-1 lg:grid-cols-2">
+            <div>
+              <div
+                className={
+                  "py-[30px] px-[10px] md:px-[30px] lg:px-10" +
+                  " borderAsMargin"
+                }
+              >
+                <h2 className="text-4xl sm:text-5xl font-bold">
+                  {content[7].list1.header}
+                </h2>
+                <ul className="mt-6">
+                  {content[7].list1.elements.map((element) => (
+                    <li key={element} className="flex">
+                      <div className="flex-shrink-0 h-[18px] mt-[16px] mr-[14px]">
+                        <FaCheck className="text-primary-500" />
+                      </div>
+                      <div className="text-xl font-normal leading-[2]">
+                        {element}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="borderAsMargin">
+                <div
+                  className={
+                    "relative h-[250px] sm:h-[317px] " +
+                    "md:h-[433px] lg:h-[272px] xl:h-[336px]"
+                  }
+                >
+                  <Image
+                    src={content[7].pic1.scr}
+                    alt={content[7].pic1.alt}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                className={
+                  "relative h-[314px] sm:h-[353px] md:h-[481px]" +
+                  " lg:h-[217px] xl:h-[241px] borderAsMargin"
+                }
+              >
+                <Image
+                  src={content[7].pic2.scr}
+                  alt={content[7].pic2.alt}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="borderAsMargin py-[23px] px-[10px] md:px-[30px]">
+                <p className="leading-[1.8] text-lg">
+                  <span className="font-bold">{content[7].text1}</span>
+                  <br />
+                  <span className="text-primary-500">{content[7].text2}</span>
+                </p>
+                <ul className="mt-5">
+                  {content[7].list2.map((element) => (
+                    <li key={element} className="flex mb-3">
+                      <div className="flex-shrink-0 h-[6px] mt-[9px] mr-1">
+                        <IoMdPlay className="text-primary-500 text-2xl" />
+                      </div>
+                      <div className="text-xl font-normal leading-[1.8]">
+                        {element}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+                <Button
+                  variant={3}
+                  link={content[7].link}
+                  className="mt-[30px]"
+                >
+                  Learn More
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="SectionEigth" className="relative ">
+        <div className="relative h-[1398px] sm:h-[1178px] md:h-[796px] lg:h-[699px] xl:h-[760px]">
+          <Image
+            src={content[8].bgImg.scr}
+            alt={content[8].bgImg.alt}
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50  md:flex items-center">
+          <div className="subSection my-[60px]">
+            <div className="grid grid-cols-1 md:grid-cols-2">
+              <div className="py-[30px] px-[10px] md:px-[30px] lg:pr-[60px] ">
+                <h2 className="text-white text-4xl sm:text-5xl xl:text-6xl font-bold">
+                  {content[8].title}
+                </h2>
+                <p className="text-white mt-8 text-lg tracking-[2px] leading-[1.8]">
+                  {content[8].text}
+                </p>
+                <Button variant={2} className="mt-[32px]">
+                  Contact Us
+                </Button>
+              </div>
+              <div className="py-[30px] pl-[10px] md:px-[30px] lg:pl-[60px]">
+                <ContactForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="SectionNine">
+        <div className="subSection my-12">
+          <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
+            <Logo className="h-14" />
+            <div className="flex gap-5 justify-between md:justify-end md:gap-28">
+              <FooterList
+                title={content[9].getting.title}
+                elements={content[9].getting.elements}
+              />
+              <FooterList
+                title={content[9].policy.title}
+                elements={content[9].policy.elements}
+              />
+            </div>
+          </div>
+          <hr className="border-t-[1px] border-primary-200 my-4" />
+          <div className="flex flex-col sm:flex-row-reverse gap-8 sm:justify-between">
+            <div className="w-full sm:w-[340px] flex gap-10 justify-between ">
+              <SocialLink
+                icon={PiTelegramLogo}
+                link={content[9].socialmedia.telegram}
+              />
+              <SocialLink
+                icon={PiInstagramLogo}
+                link={content[9].socialmedia.instagram}
+              />
+              <SocialLink
+                icon={PiWhatsappLogo}
+                link={content[9].socialmedia.whatsapp}
+              />
+              <SocialLink
+                icon={PiFacebookLogo}
+                link={content[9].socialmedia.facebook}
+              />
+              <SocialLink
+                icon={PiEnvelope}
+                link={content[9].socialmedia.mail}
+              />
+            </div>
+            <p className="text-sm w-full text-primary-500 center flex justify-center items-center sm:w-auto">
+              {content[9].copyright}
+            </p>
           </div>
         </div>
       </section>

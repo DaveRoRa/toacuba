@@ -90,8 +90,62 @@
   },
   "6": {
     "bgImage": { "src": "/section6bg.jpg", "alt": "backgroundsection6" },
-    "title":"Family Camp",
+    "title": "Family Camp",
     "text": "The trekking in the enchanting mountains or rafting in the wild rivers, exploring the dense forest, canyoning in the refreshing waterfall, gliding across the highest peaks and the beautiful valley etc. are some of the adventures you can imagine.",
-    "cardPic":{ "src": "/section6-1.jpg", "alt": "sectionsixcard" }
+    "cardPic": { "src": "/section6-1.jpg", "alt": "sectionsixcard" }
+  },
+  "7": {
+    "list1": {
+      "header": "Sport activities",
+      "elements": [
+        "Climbing tower sdl fjls dflksda jflkasd jflsad j",
+        "Table tennis",
+        "Volleyball",
+        "Bowling",
+        "Climbing wall for children",
+        "Gym room"
+      ]
+    },
+    "pic1": { "scr": "/section7-1.jpg", "alt": "section7-gallery1" },
+    "pic2": { "scr": "/section7-2.jpg", "alt": "section7-gallery2" },
+    "text1": "Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. A lacus vestibulum sed arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur.",
+    "text2": "Nec feugiat nisl pretium fusce id. Justo laoreet sit amet cursus sit amet. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "list2": [
+      "Rhoncus urna neque viverra",
+      "Lobortis feugiat vivamus at augue",
+      "Eget lorem dolor sed viverra",
+      "Odio facilisis mauris sit amet massa vitae"
+    ],
+    "link": "#"
+  },
+  "8": {
+    "title": "Contact Us",
+    "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "bgImg": { "scr": "/section8bg.jpg", "alt": "section8bg" }
+  },
+  "9": {
+    "copyright": "© 2023 Toacuba™. All Rights Reserved.",
+    "getting": {
+      "title": "Getting Started",
+      "elements": [
+        { "text": "Products", "link": "#" },
+        { "text": "Contact Us", "link": "#" },
+        { "text": "About Us", "link": "#" }
+      ]
+    },
+    "policy": {
+      "title": "Policy",
+      "elements": [
+        { "text": "Privacy Policy", "link": "#" },
+        { "text": "Conditions", "link": "#" }
+      ]
+    },
+    "socialmedia": {
+      "whatsapp": "https://wa.me/5358207246",
+      "telegram": "https://t.me/ArigatoGosaimasuBitch",
+      "instagram": "dslkfdsl",
+      "facebook": "dsafsdgdas",
+      "mail": "mailto:ftdrodriguezr@gmail.com"
+    }
   }
 }
