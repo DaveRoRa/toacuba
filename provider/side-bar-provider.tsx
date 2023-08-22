@@ -12,7 +12,7 @@ export const SideBarContextProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [isSideBarOpen, setIsSideBarOpen] = useState(true);
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
   return (
     <SideBarContext.Provider value={{ isSideBarOpen, setIsSideBarOpen }}>
       {children}
