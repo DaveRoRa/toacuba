@@ -1,15 +1,8 @@
-import {
-  SideBarContextProvider,
-} from "@/provider/side-bar-provider";
+import { SideBarContextProvider } from "@/provider/side-bar-provider";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter, Lato, Playfair_Display } from "next/font/google";
+import "react-toastify/ReactToastify.css";
 import BodyLayout from "./components/body-layout";
-const lato = Lato({ weight: ["700", "400"], subsets: ["latin", "latin-ext"] });
-const palyfair = Playfair_Display({
-  weight: ["700", "600", "400"],
-  subsets: ["latin", "latin-ext"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",

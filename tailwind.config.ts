@@ -26,6 +26,8 @@ const config: Config = {
         "primary-400": "#c1b495",
         "primary-500": "#a79770",
         "primary-600": "#9b8a60",
+        "disabled-400": "#E1E8EC",
+        "disable-700": "#ADBAC6",
       },
     },
   },

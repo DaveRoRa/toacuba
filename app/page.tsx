@@ -18,7 +18,7 @@ import Card from "./components/card";
 import { ContactForm } from "./components/contact-form";
 import Logo from "./components/logo";
 import SocialLink from "./components/social-link";
-import FooterList from "./components/FooterList";
+import FooterList from "./components/footer-list";
 import Menu from "./components/menu";
 
 export default function Home() {
